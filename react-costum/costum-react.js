@@ -5,7 +5,8 @@ function costumRender(reactElem, container){
 
     container.appendChild(appendix);  
 }
-//This is close to how a real react element looks like. it has children, which may have their own children, and their own, this is why it's called a tree
+//This is close to how a real react element looks like. it has children, which may have their own children, and their own, this is why it's called a tree.
+//When we feed an HTML retrurning fucntion to the .render() in react, it beasically uses bundlers to convert our HTML into something like this below, and then it gets rendered onto our page using a function that looks something like the one above.
 const reactElem = {
     type: 'a',
     props: {
