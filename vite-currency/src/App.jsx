@@ -72,9 +72,6 @@ return (
                   }}
                   />
                 </div>
-                <button type="submit" className="">
-                  Convert {from} to {to}
-                </button>
               </form>
             </div>
         </div>

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function useCurrencyInfo(mudra){
     const [data, setData] = useState({})
-    //use-effect runs the function call basck as soon as the lifecycle of our coustom hook is triggered. No need to create a seperate variable to wait for the lifecycle to be mounted.
+    //use-effect runs the function call as soon as the lifecycle of our coustom hook is triggered. No need to create a seperate variable to wait for the lifecycle to be mounted.
     useEffect(() => {
         fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${mudra}.json`).
         then((res) => res.json())
