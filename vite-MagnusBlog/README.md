@@ -1,0 +1,4 @@
+Rn we have downloaded many packaged, react-hook-form, html-react-parser, tinymce-react, appwrite, their purpose would be revealed as we make the project.
+.env, this is where we set "enviornment variables". React se banaoge toh REACT_APP_ lagaane padta hai, par hamne vite se banaya, to VITE_ lagao. Acess keliye import.meta.env.<naman>. .env file ko git-ignore mein daalna hai, aur github pe push karne keliye ek .env.sample banana hai jismein content same hoga. 
+Abhi appwrite mein kaafi kuch banaya hai jiska deadass mujhe koi anuman nahi hai, we will see as the project progresses. 
+conf.js file has been created to ensure that the enviornment variable loaded is a string without fail and makes the access part easier
